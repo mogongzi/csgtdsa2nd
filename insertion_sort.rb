@@ -3,12 +3,12 @@ def insertion_sort(array)
     temp = array[i]
     position = i - 1
     while position >= 0
-      if array[position] > array[position + 1]
-        array[position + 1] = array[position]
-        array[position] = temp
-      end
+      break unless array[position] > temp
+
+      array[position + 1] = array[position]
       position -= 1
     end
+    array[position + 1] = temp
   end
 end
 
