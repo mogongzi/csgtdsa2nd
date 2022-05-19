@@ -5,8 +5,9 @@
 | 100        | 100  | 7       | 10000     |
 | 2000       | 2000 | 11      | 4,000,000 |
 
-2. If we have an O(N2) algorithm that processes an array and find that it takes 256 steps, what is the size of the array?
-16
+2. If we have an O(N2) algorithm that processes an array and find that it takes 256 steps, what is the size of the array?  
+answer: 16
+
 3. Use Big O Notation to describe the time complexity of the following func- tion. It finds the greatest product of any pair of two numbers within a given array:
 ```python
 def greatestProduct(array):
@@ -18,6 +19,7 @@ def greatestProduct(array):
     return greatestProductSoFar
 ```
 O(<img src="https://latex.codecogs.com/svg.image?N^{2}">)
+
 4. The following function finds the greatest single number within an array, but has an efficiency of O(<img src="https://latex.codecogs.com/svg.image?N^{2}">). Rewrite the function so that it becomes a speedy O(N):
 ```python
 def greatestNumber(array): 
