@@ -1,7 +1,7 @@
 def insertion_sort(array)
-  (0..array.size - 1).each_with_index do |i|
-    temp = array[i]
-    position = i - 1
+  (0..array.size - 1).each_with_index do |index|
+    temp = array[index]
+    position = index - 1
 
     while position >= 0
       if array[position] > temp

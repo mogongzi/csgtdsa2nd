@@ -1,6 +1,6 @@
 1. Replace the question marks in the following table to describe how many steps occur for a given number of data elements across various types of Big O:
 
-| N elements | O(N) | O(logN) | O($N^2$)  |
+| N elements | O(N) | O(logN) | O(<img src="https://latex.codecogs.com/svg.image?N^{2}">)      |
 |------------|------|---------|-----------|
 | 100        | 100  | 7       | 10000     |
 | 2000       | 2000 | 11      | 4,000,000 |
@@ -17,8 +17,8 @@ def greatestProduct(array):
                 greatestProductSoFar = iVal * jVal
     return greatestProductSoFar
 ```
-O($N^2$)
-4. The following function finds the greatest single number within an array, but has an efficiency of O($N^2$). Rewrite the function so that it becomes a speedy O(N):
+O(<img src="https://latex.codecogs.com/svg.image?N^{2}">)
+4. The following function finds the greatest single number within an array, but has an efficiency of O(<img src="https://latex.codecogs.com/svg.image?N^{2}">). Rewrite the function so that it becomes a speedy O(N):
 ```python
 def greatestNumber(array): 
     for i in array:
