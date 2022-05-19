@@ -1,7 +1,7 @@
 1. Use Big O Notation to describe the time complexity of an algorithm that takes 4N + 16 steps.
 O(N)
 
-2. Use Big O Notation to describe the time complexity of an algorithm that takes 2$N^2$.
+2. Use Big O Notation to describe the time complexity of an algorithm that takes 2<img src="https://latex.codecogs.com/svg.image?N^{2}">.
 O(<img src="https://latex.codecogs.com/svg.image?N^{2}">)
 
 3. Use Big O Notation to describe the time complexity of the following function, which returns the sum of all numbers of an array after the numbers have been doubled:
