@@ -10,7 +10,13 @@ def create_random_array(size)
   set.to_a
 end
 
-array = create_random_array(20)
-puts "array: #{array.inspect}, array size: #{array.size}"
-array.sort!
-puts "array: #{array.inspect}, array size: #{array.size}"
+require 'test/unit'
+
+class RandomArray < Test::Unit::TestCase
+  def test_random_array
+    array = create_random_array(10)
+    sorted_array = array.sort
+    array.sort!
+    assert_equal(sorted_array, array)
+  end
+end
