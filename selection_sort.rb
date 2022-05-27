@@ -12,11 +12,13 @@ def selection_sort(array)
 end
 
 require 'test/unit'
+require './util.rb'
 
 class TestSelectionSort < Test::Unit::TestCase
   def test_selection_sort
-    array = [4, 2, 7, 3, 1, 8, 9]
+    array = create_random_array(20)
+    sorted_array = array.sort
     selection_sort(array)
-    assert_equal([1, 2, 3, 4, 7, 8, 9], array)
+    assert_equal(sorted_array, array)
   end
 end

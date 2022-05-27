@@ -13,11 +13,13 @@ def insertion_sort(array)
 end
 
 require 'test/unit'
+require './util.rb'
 
 class InsertionSort < Test::Unit::TestCase
   def test_insertion_sort
-    array = [4, 2, 5, 8, 9, 7, 1, 3]
+    array = create_random_array(20)
+    sorted_array = array.sort
     insertion_sort(array)
-    assert_equal([1, 2, 3, 4, 5, 7, 8, 9], array)
+    assert_equal(sorted_array, array)
   end
 end
