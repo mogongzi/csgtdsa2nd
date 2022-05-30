@@ -1,5 +1,5 @@
 def insertion_sort(array)
-  (1..array.size - 1).each do |i|
+  (1...array.size).each do |i|
     temp = array[i]
     position = i - 1
     while position >= 0

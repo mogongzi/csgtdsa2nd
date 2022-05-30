@@ -1,7 +1,7 @@
 def intersection(first_array, second_array)
   result = []
-  (0..first_array.size - 1).each do |i|
-    (0..second_array.size - 1).each do |j|
+  (0...first_array.size).each do |i|
+    (0...second_array.size).each do |j|
       next unless first_array[i] == second_array[j]
 
       result << first_array[i]

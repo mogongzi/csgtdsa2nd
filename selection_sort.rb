@@ -1,7 +1,7 @@
 def selection_sort(array)
-  (0..array.size - 1).each do |i|
+  (0...array.size).each do |i|
     lowest_index = i
-    ((i + 1)..array.size - 1).each do |j|
+    ((i + 1)...array.size).each do |j|
       lowest_index = j if array[j] < array[lowest_index]
     end
 
