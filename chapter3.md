@@ -19,8 +19,11 @@
    ```
    O(N)
 3. The following function is based on the age-old analogy used to describe the power of compounding interest:
-   Imagine you have a chessboard and put a single grain of rice on one square. On the second square, you put 2 grains of rice, since that is double the amount of rice on the previous square. On the third square, you put 4 grains. On the fourth square, you put 8 grains, and on the fifth square, you put 16 grains, and so on.
-   The following function calculates which square you’ll need to place a certain number of rice grains. For example, for 16 grains, the function will return 5, since you will place the 16 grains on the fifth square.
+   Imagine you have a chessboard and put a single grain of rice on one square. On the second square, you put 2 grains of
+   rice, since that is double the amount of rice on the previous square. On the third square, you put 4 grains. On the
+   fourth square, you put 8 grains, and on the fifth square, you put 16 grains, and so on.
+   The following function calculates which square you’ll need to place a certain number of rice grains. For example, for
+   16 grains, the function will return 5, since you will place the 16 grains on the fifth square.
    Use Big O Notation to describe the time complexity of this function, which is below:
    ```javascript
    function chessboardSpace(numberOfGrains) {
