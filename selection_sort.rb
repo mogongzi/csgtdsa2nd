@@ -1,7 +1,7 @@
 def selection_sort(array)
-  (0..array.size - 1).each_with_index do |i|
+  (0..array.size - 1).each do |i|
     lowest_index = i
-    ((i + 1)..array.size - 1).each_with_index do |j|
+    ((i + 1)..array.size - 1).each do |j|
       lowest_index = j if array[j] < array[lowest_index]
     end
 
@@ -12,7 +12,7 @@ def selection_sort(array)
 end
 
 require 'test/unit'
-require './util.rb'
+require './util'
 
 class TestSelectionSort < Test::Unit::TestCase
   def test_selection_sort
