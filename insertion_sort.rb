@@ -17,9 +17,9 @@ require './util.rb'
 
 class InsertionSort < Test::Unit::TestCase
   def test_insertion_sort
-    array = create_random_array(20)
-    sorted_array = array.sort
-    insertion_sort(array)
-    assert_equal(sorted_array, array)
+    actual = create_random_array(20)
+    expected = actual.sort
+    insertion_sort(actual)
+    assert_equal(expected, actual)
   end
 end

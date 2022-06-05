@@ -22,7 +22,7 @@ require 'test/unit'
 class AverageOfEvenNumbersTest < Test::Unit::TestCase
   def test_average_of_even_numbers
     array = (1..25).to_a
-    num = average_of_even_number(array)
-    assert_equal(13.0, num)
+    actual = average_of_even_number(array)
+    assert_equal(13.0, actual)
   end
 end

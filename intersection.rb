@@ -19,7 +19,7 @@ class IntersectionTest < Test::Unit::TestCase
   def test_intersection
     array_a = [3, 1, 4, 2]
     array_b = [4, 5, 3, 6]
-    result = intersection(array_a, array_b)
-    assert_equal([3, 4], result)
+    actual = intersection(array_a, array_b)
+    assert_equal([3, 4], actual)
   end
 end
