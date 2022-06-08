@@ -16,7 +16,7 @@ require 'test/unit'
 
 class FirstNonDuplicateChar < Test::Unit::TestCase
   def test_first_non_duplicate_char
-    word = "minimum"
+    word = 'minimum'
     expected = 'n'
     actual = first_non_duplicate_char(word)
     assert_equal(expected, actual)
