@@ -13,7 +13,7 @@ def insertion_sort(array)
 end
 
 require 'test/unit'
-require './util.rb'
+require './util'
 
 class InsertionSort < Test::Unit::TestCase
   def test_insertion_sort
