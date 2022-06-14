@@ -7,4 +7,3 @@ def factorial(num)
 end
 
 puts factorial(ARGV[0].to_i)
-
