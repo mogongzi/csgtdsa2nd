@@ -24,6 +24,7 @@ def anagram_of(string)
       collection << copy.insert(index, string[0])
     end
   end
+  puts "collection: #{collection.inspect}"
   # return the entire collection of anagrams:
   collection
 end
