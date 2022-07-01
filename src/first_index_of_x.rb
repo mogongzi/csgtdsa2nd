@@ -1,4 +1,4 @@
-def first_index_of_x(string, index = 0)
+def first_index_of_x(string)
   # base case
   return 0 if string[0] == 'x'
 
